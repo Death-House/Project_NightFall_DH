@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\_Unreal Engine\\Project_NightFall_DH\\Plugins\\AutoSettings\\Source\\AutoSettingsCore\\AutoSettingsCore.Build.cs",
+		"F:\\_Unreal Engine\\Project_NightFall_DH\\Plugins\\AutoSettings\\Source\\AutoSettingsInput\\AutoSettingsInput.Build.cs",
+		"F:\\_Unreal Engine\\Project_NightFall_DH\\Plugins\\AutoSettings\\Source\\AutoSettings\\AutoSettings.Build.cs"
+	],
+	"EngineVersion": "5.4.1"
+}

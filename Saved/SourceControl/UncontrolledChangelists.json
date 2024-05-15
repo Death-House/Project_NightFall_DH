@@ -5,7 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/FR4NCIS/Documents/Projects Serios/Project_NightFall_DH/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/_Scene/Maps/Main_Map.umap"
 			]
 		}
 	]

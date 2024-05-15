@@ -3,9 +3,9 @@
 Desenvolvido com Unreal Engine 5
 
 ## Equipe
-**@Devas666**
-**@Stifz**
-**@FR4NCISDEV**
+- **@Devas666**
+- **@Stifz**
+- **@FR4NCISDEV**
 
 
 ## Fluxo

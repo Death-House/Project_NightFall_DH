@@ -6,7 +6,13 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"F:/_Unreal Engine/Project_NightFall_DH/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"F:/_Unreal Engine/Project_NightFall_DH/Content/_Scene/Maps/Main_Map.umap"
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/_Scene/Maps/Main_Map.umap",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/Underground/Materials/Instances/Mi_Tarp_Curtain1.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/Underground/Meshes/Props/SM_Hospital_Curtain1.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/Underground/Materials/Instances/Mi_Tarp_Curtain.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/_Main/Blueprints/Player/BP_CharMAIN.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/Underground/Meshes/Props/SM_Folding_Doors_Long_Open.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/Underground/Meshes/Props/SM_Folding_Doors_Short_Open.uasset"
 			]
 		}
 	]

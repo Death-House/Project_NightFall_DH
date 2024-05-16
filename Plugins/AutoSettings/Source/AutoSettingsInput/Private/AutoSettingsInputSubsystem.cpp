@@ -1,34 +1,3 @@
-// Copyright Sam Bonifacio. All Rights Reserved.
-
-
-#include "AutoSettingsInputSubsystem.h"
-#include "Misc/AutoSettingsInputConfig.h"
-#include "InputMappingManager.h"
-#include "Engine/GameInstance.h"
-#include "Engine/LocalPlayer.h"
-#include "GameFramework/PlayerController.h"
-
-void UAutoSettingsInputSubsystem::Tick(float DeltaTime)
-{
-	if (UInputMappingManager::GetInputConfigStatic()->bAutoInitializePlayerInputOverrides)
-	{
-		// Polling this is a bit dirty, but can't find any engine events that fire when players are added so it'll have to do
-
-		UGameInstance* GameInstance = GetGameInstance();
-		if (GameInstance)
-		{
-			TArray<ULocalPlayer*> Players = GameInstance->GetLocalPlayers();
-			for (ULocalPlayer* Player : Players)
-			{
-				if (APlayerController* PlayerController = Player->GetPlayerController(GetWorld()))
-				{
-					if (PlayerController->PlayerInput && !UInputMappingManager::Get()->IsPlayerControllerRegistered(PlayerController))
-					{
-						UInputMappingManager::Get()->InitializePlayerInputOverridesStatic(PlayerController);
-					}
-				}
-			}
-		}
-		
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a190d069db07fb213a10cb83f1121ae3a8945749720480b6c862498c703e6f0a
+size 1109

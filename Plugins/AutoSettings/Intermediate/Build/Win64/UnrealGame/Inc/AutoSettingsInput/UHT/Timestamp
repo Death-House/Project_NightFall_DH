@@ -1,22 +1,3 @@
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\AutoSettingsInputSubsystem.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\AutoSettingsPlayer.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\GlobalKeyIconTagManager.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\InputMappingGroup.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\InputMappingLayout.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\InputMappingManager.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\InputMappingPreset.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\KeyMappingTypes.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\PlayerInputMappings.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\Misc\AutoSettingsInputConfig.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\Misc\AutoSettingsInputConfigInterface.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\Misc\AutoSettingsInputProjectConfig.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\UI\ActionLabel.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\UI\ActionMapping.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\UI\AxisLabel.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\UI\AxisMapping.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\UI\BindCaptureButton.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\UI\BindCapturePrompt.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\UI\InputLabel.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\UI\InputMapping.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Public\UI\KeyLabel.h
-D:\build\U5M-Marketplace\Sync\LocalBuilds\PluginTemp\HostProject\Plugins\AutoSettings\Source\AutoSettingsInput\Private\Misc\AutoSettingsInputValidationSubsystem.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:1be370b496cf58345ba5597d48bea1380f930cf14a14bb3591c76ce596d83972
+size 3134

@@ -1,30 +1,3 @@
-// Copyright Sam Bonifacio. All Rights Reserved.
-
-#include "UI/InputLabel.h"
-#include "InputMappingManager.h"
-
-UInputLabel::UInputLabel(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer), MappingGroup(-1), bUsePlayerKeyGroup(true)
-{
-}
-
-void UInputLabel::UpdateLabel_Implementation()
-{
-
-}
-
-void UInputLabel::NativeConstruct()
-{
-	Super::NativeConstruct();
-
-	UInputMappingManager::Get()->OnMappingsChanged.AddUniqueDynamic(this, &UInputLabel::MappingsChanged);
-
-	UpdateLabel();
-}
-
-void UInputLabel::MappingsChanged(APlayerController* Player)
-{
-	if (Player == GetOwningPlayer())
-	{
-		UpdateLabel();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:01bbbf7a4d74e2b8c15653e35ea936001400742ea19637e02e96a2f61de79311
+size 651

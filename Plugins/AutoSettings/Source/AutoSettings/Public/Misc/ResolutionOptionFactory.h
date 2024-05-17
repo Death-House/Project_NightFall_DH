@@ -1,19 +1,3 @@
-// Copyright Sam Bonifacio. All Rights Reserved.
-
-#pragma once
-
-#include "Misc/SettingOptionFactory.h"
-#include "ResolutionOptionFactory.generated.h"
-
-/**
- * Factory class for constructing a set of options for supported fullscreen resolutions
- */
-UCLASS()
-class AUTOSETTINGS_API UResolutionOptionFactory : public USettingOptionFactory
-{
-	GENERATED_BODY()
-	
-	// Construct options for supported resolutions
-	virtual TArray<FSettingOption> ConstructOptions_Implementation() const override;
-	
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:be6113c76afaa9dbea126f3cbf2d5043ffc47d6b10030adc1d0bc11f11a6d421
+size 511

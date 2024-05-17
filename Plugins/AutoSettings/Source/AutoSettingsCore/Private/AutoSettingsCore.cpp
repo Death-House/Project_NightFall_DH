@@ -1,23 +1,3 @@
-// Copyright Sam Bonifacio. All Rights Reserved.
-
-#include "AutoSettingsCore.h"
-
-#if WITH_EDITOR
-#include "ISettingsModule.h"
-#endif
-
-#define LOCTEXT_NAMESPACE "FAutoSettingsCoreModule"
-
-void FAutoSettingsCoreModule::StartupModule()
-{
-
-}
-
-void FAutoSettingsCoreModule::ShutdownModule()
-{
-
-}
-
-#undef LOCTEXT_NAMESPACE
-	
-IMPLEMENT_MODULE(FAutoSettingsCoreModule, AutoSettingsCore)
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cfe597f53e802db7ebdf61afd0cc2f6d1326e776fca9b042d6eedc7b3a78801
+size 402

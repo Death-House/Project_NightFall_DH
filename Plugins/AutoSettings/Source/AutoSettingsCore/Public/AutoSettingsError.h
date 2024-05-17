@@ -1,24 +1,3 @@
-// Copyright Sam Bonifacio. All Rights Reserved.
-
-#pragma once
-
-#include "CoreMinimal.h"
-
-class AUTOSETTINGSCORE_API FAutoSettingsError
-{
-public:
-	static void LogError(const FString& Message);
-
-	static void LogInvalidClass(const FString& SourceObjectName, const FString& ClassPropertyName);
-	static void LogInvalidClass(UClass* SourceClass, const FString& ClassPropertyName);
-
-	static void LogWidgetCreationFailed(UClass* SourceClass, const FString& WidgetName);
-	static void LogMissingBindWidget(UClass* SourceClass, const FName& PropertyName);
-
-	static void LogMissingCVar(const FString& Context, const FName& CVar);
-
-private:
-
-	static FString GetSafeClassName(UClass* Class);
-	
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:45c43e4f6232fb6ff3d902bea95c4c78b0fd459fccafcf4da8af094a7fed4910
+size 708

@@ -1,8 +1,3 @@
-{
-	"SourceFiles": [
-		"F:\\_Unreal Engine\\Project_NightFall_DH\\Plugins\\AutoSettings\\Source\\AutoSettingsCore\\AutoSettingsCore.Build.cs",
-		"F:\\_Unreal Engine\\Project_NightFall_DH\\Plugins\\AutoSettings\\Source\\AutoSettingsInput\\AutoSettingsInput.Build.cs",
-		"F:\\_Unreal Engine\\Project_NightFall_DH\\Plugins\\AutoSettings\\Source\\AutoSettings\\AutoSettings.Build.cs"
-	],
-	"EngineVersion": "5.4.1"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef07360666cdc0f40f68fa5be3b1362a6968c3b63e2fcf31219a0c6acf32fc65
+size 417

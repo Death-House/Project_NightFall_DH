@@ -1,21 +1,3 @@
-// Copyright Sam Bonifacio. All Rights Reserved.
-
-#include "KeyMappingTypes.h"
-#include "Misc/AutoSettingsInputConfig.h"
-
-FConfigActionKeyMapping::FConfigActionKeyMapping(FInputActionKeyMapping Base)
-{
-	ActionName = Base.ActionName;
-	Key = Base.Key;
-	bShift = Base.bShift;
-	bCtrl = Base.bCtrl;
-	bAlt = Base.bAlt;
-	bCmd = Base.bCmd;
-}
-
-FConfigAxisKeyMapping::FConfigAxisKeyMapping(FInputAxisKeyMapping Base)
-{
-	AxisName = Base.AxisName;
-	Key = Base.Key;
-	Scale = Base.Scale;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5672cadae195088be9420fccd13692053905948bf75b234293e7415797a67fcd
+size 497

@@ -1,21 +1,3 @@
-// Copyright Sam Bonifacio. All Rights Reserved.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Subsystems/GameInstanceSubsystem.h"
-#include "AutoSettingsInputValidationSubsystem.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class UAutoSettingsInputValidationSubsystem : public UGameInstanceSubsystem
-{
-	GENERATED_BODY()
-
-public:
-
-	virtual void Initialize(FSubsystemCollectionBase& Collection) override;
-	
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c96c70a8240d433b2536fad51e115d6bab59f0b71aa260acc2878468ace7a7d
+size 422

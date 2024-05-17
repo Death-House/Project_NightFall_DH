@@ -1,13 +1,3 @@
-{
-	"version": 1,
-	"changelists": [
-		{
-			"guid": "00000000000000000000000000000000",
-			"description": "Default Uncontrolled Changelist",
-			"files": [
-				"F:/_Unreal Engine/Project_NightFall_DH/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"F:/_Unreal Engine/Project_NightFall_DH/Content/_Scene/Maps/Main_Map.umap"
-			]
-		}
-	]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:52f724972835d433834e33d8d3ff9cda9e4392b6ab74558c9923926c929981cf
+size 1023

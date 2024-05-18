@@ -1,8 +1,3 @@
-{
-	"OutputFiles": [
-		"..\\..\\..\\a\\UnrealGame\\Development\\AutoSettings\\Module.AutoSettings.cpp.o",
-		"..\\..\\..\\a\\UnrealGame\\Development\\AutoSettings\\Module.AutoSettings.cpp.o",
-		"..\\..\\..\\x\\UnrealGame\\Development\\AutoSettings\\Module.AutoSettings.cpp.o",
-		"..\\..\\..\\x\\UnrealGame\\Development\\AutoSettings\\Module.AutoSettings.cpp.o"
-	]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4f28e9f7f2d5e80e0990ce8ff6629e91b86cf6bf51dd0631bf0783728a3f571
+size 370

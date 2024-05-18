@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:52f724972835d433834e33d8d3ff9cda9e4392b6ab74558c9923926c929981cf
-size 1023
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/_Scene/Maps/Main_Map.umap",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/Underground/Materials/Instances/Mi_Tarp_Curtain1.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/Underground/Meshes/Props/SM_Hospital_Curtain1.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/Underground/Materials/Instances/Mi_Tarp_Curtain.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/_Main/Blueprints/Player/BP_CharMAIN.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/Underground/Meshes/Props/SM_Folding_Doors_Long_Open.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/Underground/Meshes/Props/SM_Folding_Doors_Short_Open.uasset",
+				"F:/_Unreal Engine/Project_NightFall_DH/Content/StarterContent/Architecture/Floor_400x400.uasset"
+			]
+		}
+	]
+}

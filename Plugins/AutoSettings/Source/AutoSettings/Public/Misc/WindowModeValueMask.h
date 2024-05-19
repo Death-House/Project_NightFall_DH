@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0234dc2f5f909a5f5e289b4d35f333389e5e0f53e4dc4c75b0853616a44567c6
-size 754
+// Copyright Sam Bonifacio. All Rights Reserved.
+
+#pragma once
+
+#include "Misc/SettingValueMask.h"
+#include "WindowModeValueMask.generated.h"
+
+/**
+ * SettingValueMask for splitting and recombining the r.SetRes CVar into Window Mode
+ */
+UCLASS()
+class AUTOSETTINGS_API UWindowModeValueMask : public USettingValueMask
+{
+	GENERATED_BODY()
+	
+public:
+
+	// Get the window mode part of r.setres console variable
+	virtual FString MaskValue_Implementation(const FString& ConsoleValue) const override;
+
+	// Combine a modified window mode string with the existing pixel dimension part of r.setres console variable
+	virtual FString RecombineValues_Implementation(const FString& SettingValue, const FString& ConsoleValue) const override;
+	
+};

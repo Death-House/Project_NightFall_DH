@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3483bf186382b4b4280eab893a34071d152eaf5836fdf83fc2a109fb090bc599
-size 811
+// Copyright Sam Bonifacio. All Rights Reserved.
+
+#pragma once
+
+#include "SelectSetting.h"
+#include "Components/ComboBoxString.h"
+#include "ComboBoxSetting.generated.h"
+
+/**
+ * AutoSetting for a native Unreal ComboBox
+ */
+UCLASS(abstract)
+class AUTOSETTINGS_API UComboBoxSetting : public USelectSetting
+{
+	GENERATED_BODY()
+	
+protected:
+	UPROPERTY(BlueprintReadOnly, Category = "ComboBox Setting", meta = (BindWidget))
+	UComboBoxString* ComboBox;
+
+	virtual void NativeConstruct() override;
+
+	virtual void UpdateSelection_Implementation(const FString& Value) override;
+
+	virtual void UpdateOptions_Implementation(const TArray<FSettingOption>& InOptions) override;
+
+private:
+	UFUNCTION()
+	void ComboBoxSelectionChanged(FString SelectedItem, ESelectInfo::Type SelectionType);
+	
+	
+};

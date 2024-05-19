@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:71f244010c711e964cc39647f7aa97761dff8a9005a84eed036cdef027ab60f8
-size 700
+// Copyright Sam Bonifacio. All Rights Reserved.
+
+#include "UI/SettingControls/SpinnerSetting.h"
+
+void USpinnerSetting::NativeConstruct()
+{
+	Super::NativeConstruct();
+
+	if(IsValid(Spinner))
+		Spinner->SelectionChangedEvent.AddUniqueDynamic(this, &USpinnerSetting::SpinnerSelectionChanged);
+}
+
+void USpinnerSetting::UpdateSelection_Implementation(const FString & Value)
+{
+	if (IsValid(Spinner))
+		Spinner->SelectValue(Value);
+}
+
+void USpinnerSetting::UpdateOptions_Implementation(const TArray<FSettingOption>& InOptions)
+{
+	if (IsValid(Spinner))
+		Spinner->Options = InOptions;
+}
+
+void USpinnerSetting::SpinnerSelectionChanged(FString Value)
+{
+	ApplySettingValue(Value);
+}

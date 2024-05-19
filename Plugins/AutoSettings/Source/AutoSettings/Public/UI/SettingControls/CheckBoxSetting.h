@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:28a607b996bb9aefdd3e3e291ebbf35fa330b58fbde54a0b04b55b4497887486
-size 652
+// Copyright Sam Bonifacio. All Rights Reserved.
+
+#pragma once
+
+#include "ToggleSetting.h"
+#include "Components/CheckBox.h"
+#include "CheckBoxSetting.generated.h"
+
+/**
+ * AutoSetting for a native Unreal CheckBox
+ */
+UCLASS(abstract)
+class AUTOSETTINGS_API UCheckBoxSetting : public UToggleSetting
+{
+	GENERATED_BODY()
+
+protected:
+
+	UPROPERTY(BlueprintReadOnly, Category = "CheckBox Setting", meta = (BindWidget))
+	UCheckBox* CheckBox;
+
+	virtual void NativeConstruct() override;
+
+	virtual void UpdateToggleState_Implementation(bool State) override;
+	
+private:
+
+	UFUNCTION()
+	void CheckBoxStateChanged(bool IsChecked);
+	
+};

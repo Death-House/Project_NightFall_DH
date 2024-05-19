@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ba0c97e3d5f5c8ddf0d0a4e8045e73091e6785807075f64b630c03f703915672
-size 1006
+// Copyright Sam Bonifacio. All Rights Reserved.
+
+#include "Console/CVarChangeListener.h"
+#include "HAL/IConsoleManager.h"
+#include "Utility/AutoSettingsStringUtils.h"
+
+void UCVarChangeListener::Init(IConsoleVariable* InCVar)
+{
+	CVar = InCVar;
+
+	CurrentValue = CVar->GetString();
+
+	// Register sink
+	IConsoleManager::Get().RegisterConsoleVariableSink_Handle(FConsoleCommandDelegate::CreateUObject(this, &UCVarChangeListener::CVarSink));
+}
+
+void UCVarChangeListener::CVarSink()
+{
+	const FString NewValue = CVar->GetString();
+
+	// Check if value has updated since the last time we checked
+	if (NewValue != CurrentValue)
+	{
+		CurrentValue = NewValue;
+
+		OnStringCVarChanged.Broadcast(CurrentValue);
+		const int32 IntValue = CurrentValue.IsNumeric() ? FCString::Atoi(*CurrentValue) : 0;
+		OnIntCVarChanged.Broadcast(IntValue);
+		OnBoolCVarChanged.Broadcast(FAutoSettingsStringUtils::IsTruthy(CurrentValue));
+		OnFloatCVarChanged.Broadcast(FCString::Atof(*CurrentValue));
+
+	}
+}

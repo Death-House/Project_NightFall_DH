@@ -1,0 +1,8 @@
+[0518/155856.589:ERROR:backend_impl.cc(1438)] Unable to map Index file
+[0518/155856.991:ERROR:database.cc(1707)] ReportingAndNEL sqlite error 26, errno 0: file is not a database, sql: PRAGMA auto_vacuum
+[0518/155856.991:ERROR:database.cc(1707)] ReportingAndNEL sqlite error 26, errno 0: file is not a database, sql: PRAGMA journal_mode=TRUNCATE
+[0518/155856.991:ERROR:database.cc(1707)] ReportingAndNEL sqlite error 26, errno 0: file is not a database, sql: SELECT 1 FROM sqlite_master WHERE type=? AND name=?
+[0518/155856.991:ERROR:database.cc(1707)] ReportingAndNEL sqlite error 26, errno 0: file is not a database, sql: SELECT 1 FROM sqlite_master WHERE type=? AND name=?
+[0518/155856.991:ERROR:database.cc(1707)] ReportingAndNEL sqlite error 26, errno 0: file is not a database, sql: CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR)
+[0518/155900.623:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0518/160055.074:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled

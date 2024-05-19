@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f86e3285717a99fff956c349395298da3fba837ba855dccfb12105f5d2972781
-size 398
+{
+	"OutputFiles": [
+		"..\\..\\..\\a\\UnrealGame\\Shipping\\AutoSettingsInput\\Module.AutoSettingsInput.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Shipping\\AutoSettingsInput\\Module.AutoSettingsInput.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Shipping\\AutoSettingsInput\\Module.AutoSettingsInput.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Shipping\\AutoSettingsInput\\Module.AutoSettingsInput.cpp.o"
+	]
+}

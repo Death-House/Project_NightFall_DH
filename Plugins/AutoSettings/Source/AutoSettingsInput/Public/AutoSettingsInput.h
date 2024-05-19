@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:355a42e687d5d6f96839489f83dfa5a007177629d71b23909c4b901f73fab579
-size 493
+// Copyright Sam Bonifacio. All Rights Reserved.
+
+#pragma once
+
+#include "Modules/ModuleManager.h"
+
+class FAutoSettingsInputModule : public IModuleInterface
+{
+public:
+
+	// Static get module
+	static inline FAutoSettingsInputModule* Get()
+	{
+		return FModuleManager::LoadModulePtr< FAutoSettingsInputModule >("AutoSettingsInput");
+	}
+
+protected:
+
+	/** IModuleInterface implementation */
+	virtual void StartupModule() override;
+	virtual void ShutdownModule() override;
+
+};

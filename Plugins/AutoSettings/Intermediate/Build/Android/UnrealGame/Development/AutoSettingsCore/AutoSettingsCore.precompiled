@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3e78838d6a773d3bf7f9b7a0c4f9eb55ee43759ee4d9bf6a97b28c43dd82768d
-size 402
+{
+	"OutputFiles": [
+		"..\\..\\..\\a\\UnrealGame\\Development\\AutoSettingsCore\\Module.AutoSettingsCore.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Development\\AutoSettingsCore\\Module.AutoSettingsCore.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Development\\AutoSettingsCore\\Module.AutoSettingsCore.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Development\\AutoSettingsCore\\Module.AutoSettingsCore.cpp.o"
+	]
+}

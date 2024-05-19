@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c1d528a80e717fd50b81164fc1f13eb15ef42a3c38ead67c90bc03f48e65e768
-size 121
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\AutoSettingsCore\\Module.AutoSettingsCore.cpp.obj"
+	]
+}

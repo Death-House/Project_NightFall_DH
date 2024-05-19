@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:870257398bc634c06d854293dd7a01ab61e513486f71b7e00d31cd877c3ef146
-size 569
+// Copyright Sam Bonifacio. All Rights Reserved.
+
+#include "UI/SettingControls/ToggleSetting.h"
+#include "Utility/AutoSettingsStringUtils.h"
+
+void UToggleSetting::UpdateSelection_Implementation(const FString& Value)
+{
+	Super::UpdateSelection_Implementation(Value);
+
+	UpdateToggleState(FAutoSettingsStringUtils::IsTruthy(Value));
+}
+
+void UToggleSetting::UpdateToggleState_Implementation(bool State)
+{
+}
+
+void UToggleSetting::ToggleStateUpdated(bool State)
+{
+	const int32 IntValue = State ? 1 : 0;
+
+	ApplySettingValue(FString::FromInt(IntValue));
+}

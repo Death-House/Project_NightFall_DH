@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f1abe7bae1753e64989b5333b9c70a44096ac7ad0cd1c72b425f312c21f47404
-size 116
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\AutoSettings\\Module.AutoSettings.cpp.obj"
+	]
+}

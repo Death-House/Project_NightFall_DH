@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6d490b6ac1c94e2bd6d1c866674a6d32632048254c50a50ac9bf0d8d1ed59750
-size 224
+{
+	"BuildId": "33043543",
+	"Modules": 
+	{
+		"AutoSettings": "UnrealEditor-AutoSettings.dll",
+		"AutoSettingsCore": "UnrealEditor-AutoSettingsCore.dll",
+		"AutoSettingsInput": "UnrealEditor-AutoSettingsInput.dll"
+	}
+}

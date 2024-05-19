@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:71504bb365691c05ba23f2c9a00da73bc58d65c81a49cd7ac4677b2ac3eeac0e
-size 310
+[0519/010143.414:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0519/010333.817:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
